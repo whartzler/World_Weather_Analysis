@@ -4,7 +4,9 @@
 We are working on the PlanMyTrip app to gather information to identify potential travel destinations and nearby hotels. 
 
 ### Weather DataBase
-In this workbook we generated a list of 2,000 random latitudes and longitudes to find the nearest city for each combination. We combined the coordinates into a DF city_data, and saved the dataframe to a CSV.  This is the building block of our project.
+In this workbook we generated a list of 2,000 random latitudes and longitudes using Numpy.  With the generated latitudes and longitudes we ran an API request through [Open Weather Map](https://openweathermap.org/) to find the nearest city for each combination and stored the data into a list. Once the data was compiled into a los we created a DataFrame city_data, udpated the column order and saved the dataframe to a CSV.  This is the building block of our project.
+[Weeather DataBase Notebook](https://github.com/whartzler/World_Weather_Analysis/blob/main/WeatherPy.ipynb)
+
 
 
 ### Vacation Search
